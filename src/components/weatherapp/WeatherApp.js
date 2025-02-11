@@ -40,31 +40,31 @@ const WeatherApp = () => {
       location[0].innerHTML=data.name
       console.log('completed')
       console.log(data.weather[0].icon)
-      if(data.weather[0].icon==='01d'|| data.weather[0].icon=='01n'){
+      if(data.weather[0].icon==='01d'|| data.weather[0].icon==='01n'){
         setWicon(clear_icon)
        
       }
-      else if(data.weather[0].icon==='02d'|| data.weather[0].icon=='02n'){
+      else if(data.weather[0].icon==='02d'|| data.weather[0].icon==='02n'){
         setWicon(cloud_icon)
        
       }
-      else if(data.weather[0].icon==='03d'|| data.weather[0].icon=='03n'){
+      else if(data.weather[0].icon==='03d'|| data.weather[0].icon==='03n'){
         setWicon(drizzle)
        
       }
-      else if(data.weather[0].icon==='04d'|| data.weather[0].icon=='04n'){
+      else if(data.weather[0].icon==='04d'|| data.weather[0].icon==='04n'){
         setWicon(drizzle)
        
       }
-      else if(data.weather[0].icon==='09d'|| data.weather[0].icon=='09n'){
+      else if(data.weather[0].icon==='09d'|| data.weather[0].icon==='09n'){
         setWicon(rain)
        
       }
-      else if(data.weather[0].icon==='10d'|| data.weather[0].icon=='10n'){
+      else if(data.weather[0].icon==='10d'|| data.weather[0].icon==='10n'){
         setWicon(rain)
        
       }
-      else if(data.weather[0].icon==='13d'|| data.weather[0].icon=='13n'){
+      else if(data.weather[0].icon==='13d'|| data.weather[0].icon==='13n'){
         setWicon(snow)
        
       }
